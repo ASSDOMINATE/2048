@@ -1,0 +1,191 @@
+.game-body {
+    background: #202020;
+    overflow: hidden;
+    font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.top-infos{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.inline-info{
+    display: inline-block;
+    background: #3e3d3d;
+    padding: 1%;
+    border-radius: 5px;
+    width: 3.2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    vertical-align: text-top;
+    margin-left: 0.5%;
+}
+.info-title {
+    color: #009fff;
+    font-size: 0.8em;
+}
+.one-info {
+    color: #eaeaea;
+    font-size: 0.6em;
+}
+.inline-info.for-title {
+    font-size: 2em;
+    color: #eaeaea;
+    background: #202020;
+}
+.game-background {
+    background: #3e3d3d;
+    margin-left: 6.75%;
+    width: 86.5%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.game-block {
+    background: #323232;
+    width: 23.503%;
+    height: 19.23vw;
+    margin-left: 1.996%;
+    display: inline-block;
+    border-radius: 5px;
+    color: #eaeaea;
+    text-align: center;
+    line-height: 19.23vw;
+    vertical-align: middle;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.game-line {
+    font-size: 0;
+    margin-bottom: 2%;
+}
+.game-line:last-child{
+    margin: 0;
+}
+.game-block:first-child{
+    margin: 0;
+}
+#game-area{
+    padding: 1.92%;
+    border: 5px solid #3e3d3d;
+    border-radius: 10px;
+    background: #202020;
+}
+
+#game-over-message {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background: #1e8edf;
+    width: 80%;
+    top: 27%;
+    left: 10%;
+    font-size: 1.2em;
+    padding: 10% 0;
+    border-radius: 10px;
+    border: 5px solid #eaeaea;
+    color: #3e3e3e;
+    opacity: 0.95;
+    box-shadow: 0.1em 0.1em 1em #1d1d1d;
+    -moz-box-shadow: 0.1em 0.1em 1em #ECECEC;
+    -webkit-box-shadow: 0.1em 0.1em 1em #1d1d1d;
+    z-index: 999;
+}
+.message-title {
+    color: #eaeaea;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.game-block.game-2048-2 {
+    background: #f1f1f1;
+    color: #585858;
+    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
+}
+.game-block.game-2048-4 {
+    background: #c1c1c1;
+    color: #585858;
+    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
+}
+.game-block.game-2048-8 {
+    background: #0079af;
+    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
+}
+.game-block.game-2048-16 {
+    background: #00b5ff;
+    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
+}
+.game-block.game-2048-32 {
+    background: #004298;
+    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
+}
+.game-block.game-2048-64 {
+    background: #006eff;
+    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
+}
+
+.game-block.game-2048-128 {
+    background: #59c0ff;
+    font-size: xx-large;
+    font-size: -webkit-xx-large;
+}
+.game-block.game-2048-256 {
+    background: #64e1ff;
+    font-size: xx-large;
+    font-size: -webkit-xx-large;
+}
+.game-block.game-2048-512 {
+    background: #009dfc;
+    font-size: xx-large;
+    font-size: -webkit-xx-large;
+}
+.game-block.game-2048-1024 {
+    background: #006eb1;
+    font-size: x-large;
+    font-size: -webkit-x-large;
+}
+.game-block.game-2048-2048 {
+    background: #004cff;
+    font-size: x-large;
+    font-size: -webkit-x-large;
+}
+.game-block.game-2048-4096 {
+    background: #0c00a7;
+    font-size: x-large;
+    font-size: -webkit-x-large;
+}
+.game-block.game-2048-8192 {
+    background: #5690ff;
+    font-size: x-large;
+    font-size: -webkit-x-large;
+}
+.game-block.game-2048-16384 {
+    background: #9abdff;
+    font-size: large;
+    font-size: -webkit-large;
+    color: #eaeaea;
+}
+#backup-button {
+    color: #eaeaea;
+    background:linear-gradient(45deg, #00cddc, #00269a);
+    width: 86%;
+    margin-left: 7%;
+    border-radius: 5px;
+    padding: 2% 0;
+    font-weight: bold;
+}
+.bottom-infos {
+    text-align: center;
+    margin-top: 5%;
+    color: grey;
+}
+#backup-button.is-go-back{
+    background: #3e3d3d;
+}

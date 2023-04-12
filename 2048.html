@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <title>2048!</title>
+    <link rel="stylesheet" type="text/css" href="css/2048.css"/>
+</head>
+<body class="game-body">
+
+<div class="top-infos">
+    <div class="infos-line">
+        <div class="inline-info for-title">
+            <span class="game-title" id="start-new-game">2048&nbsp;!</span>
+        </div>
+        <div class="inline-info">
+            <div class="info-title">STEPS</div>
+            <div class="one-info" id="game-step">0</div>
+        </div>
+        <div class="inline-info">
+            <div class="info-title">SCORE</div>
+            <div class="one-info" id="game-score">0</div>
+        </div>
+        <div class="inline-info">
+            <div class="info-title">BEST</div>
+            <div class="one-info" id="best-score">0</div>
+        </div>
+    </div>
+</div>
+<div class="game-background">
+    <div id="game-over-message">
+        <div class="message-title">GAME OVER !</div>
+        <div id="restart-game">click to restart</div>
+    </div>
+    <div id="game-area">
+        <div class="game-line">
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+        </div>
+        <div class="game-line">
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+        </div>
+        <div class="game-line">
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+        </div>
+        <div class="game-line">
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+            <div class="game-block" num="0"></div>
+        </div>
+    </div>
+</div>
+<div class="bottom-infos">
+    <div id="backup-button" class="is-go-back">GO BACK !</div>
+</div>
+</body>
+<script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/2048.js"></script>
+</html>
